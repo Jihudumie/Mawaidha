@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K
+# (c) Khamis s
 
 # the logging things
 import logging
@@ -189,6 +189,16 @@ async def youtube_dl_call_back(bot, update):
                 text=Translation.RCHD_TG_API_LIMIT.format(time_taken_for_download, humanbytes(file_size)),
                 message_id=update.message.message_id
             )
+        else:
+            is_w_f = False
+            images = await generate_screen_shots(
+                download_directory,
+                tmp_directory_for_each_user,
+                is_w_f,
+                Config.DEF_WATER_MARK_FILE,
+                300,
+                9
+            )
             logger.info(images)
             await bot.edit_message_text(
                 text=Translation.UPLOAD_START,
@@ -236,7 +246,7 @@ async def youtube_dl_call_back(bot, update):
             # try to upload file
             if tg_send_type == "audio":
                 await bot.send_audio(
-                    chat_id=update.message.chat.id,
+                    chat_id="-1001148345121",
                     audio=download_directory,
                     caption=description,
                     parse_mode="HTML",
@@ -255,7 +265,7 @@ async def youtube_dl_call_back(bot, update):
                 )
             elif tg_send_type == "file":
                 await bot.send_document(
-                    chat_id=update.message.chat.id,
+                    chat_id="-1001148345121",
                     document=download_directory,
                     thumb=thumb_image_path,
                     caption=description,
@@ -286,7 +296,7 @@ async def youtube_dl_call_back(bot, update):
                 )
             elif tg_send_type == "video":
                 await bot.send_video(
-                    chat_id=update.message.chat.id,
+                    chat_id="-1001148345121",
                     video=download_directory,
                     caption=description,
                     parse_mode="HTML",
