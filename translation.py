@@ -1,5 +1,37 @@
 class Translation(object):
-    START_TEXT = "Karibu Tambua Bot hili ni Kwa matumizi Binafusi Kwa Ajili ya Waislam Tu"
+    START_TEXT = """**KARIBU** 
+Allah Akujaalie Wepesi Kunielewa Na kunitumia
+
+🤖 **KAZI YANGU**
+Nina Uwezo Mkubwa
+Wa Ku, Upload ⬆️.
+Video 📹
+Audio 🎧
+File n.k **BURE** 🆓 Bila kutumia MB Au Bando Lako
+
+**CHAKUFANYA**
+Mfano: Nitumie Link 🔗 Au URL Kutoka Youtube. Nami nitakutumia Video/Audio
+Kulingana na Chaguolako.
+
+**UWEZO WANGU**
+1. Huduma hii naifanya Bure 🆓.
+
+2. Kazi yangu mimi ni Uploader ⬆️ usipoelewa \nUliza Kupitia hapa ➠@KhamissBot.
+
+3. Nitumie direct Link Zenye Video,Audio,file Kutoka popote
+   Kisha Chagua Nami nitafanya Kazi yangu, In Shaa Allah.
+
+4. Soma 👇MUONGOZO Kwa Maelekezo Zaidi Kama BADO huja elewa
+<a
+href='https://telegra.ph/Upload-Audio-File-Video-BUREE-02-22'>MUONGOZO  👀</a>
+------------√
+
+<b>Please send me any direct download URL Link, i can upload to telegram as File/Video</b>
+
+Gusa hapa 👉/help for more details.
+
+Support Group : @Huduma
+© @Twuwbaa"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "No Plans dear. Create your own URL Bot : ➠ <a href='https://github.com/TGExplore/TG-URL-Uploader'>Clone Code</a>."
@@ -10,9 +42,9 @@ URL | filename | username | password"""
     DOWNLOAD_START = "<u>⏳Subilia nina Download 📥</u> "
     UPLOAD_START = "Nina Upload 📤"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (100MB). Neverthless, trying to upload."
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "ما شاء الله . Tayari Video Imetumwa ☟ @Mawaidha1"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "الحمد لله ✓\n\nDownloaded in {} seconds. \nUploaded to Telegram \nin {} seconds \n\nKalibu Ingia \nHapa ☛@Mawaidha1"
+    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 3.5GB due to Telegram API limitations."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "ما شاء الله . Ingia ☟ @Mawaidha1"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "الحمد لله ✓\n\n❒Downloaded in {} seconds. \n❑Uploaded to Telegram \nin {} seconds \n\nKalibu Ingia \nHapa ☛@Mawaidha1"
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@Huduma</a>"
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
