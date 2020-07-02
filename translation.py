@@ -14,7 +14,7 @@ URL | filename | username | password"""
     AFTER_SUCCESSFUL_UPLOAD_MSG = "ما شاء الله . Ingia ☟ @Mawaidha1"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "الحمد لله ✓\n\n❒Downloaded in {} seconds. \n❑Uploaded to Telegram \nin {} seconds \n\nTayari Video Imetumwa.\nHapa ☛@Mawaidha1"
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
-    NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@Huduma</a>"
+    NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@AbdallaahBot</a>"
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
     SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
@@ -24,6 +24,7 @@ URL | filename | username | password"""
       ☟☟☟
     <b><u>Youtube</u></b>
 1. @utubebot
+2. @TgUploadsBot
 
    <b><u>Instagram</u></b>
 2. @InstaSavePRO_Bot
@@ -44,8 +45,8 @@ Telegram ID: <code>{}</code>
 Plan name : Free User
 Jiunge Nasi : 🖲 @Mawaidha1
 
-Support Group : @Huduma
-© @Twuwbaa"""
+Support Bot : @AbdallaahBot
+© @Viongozi"""
     HELP_USER = "Pata Msaada kupitia hapa\n ➠@ViongoziBot"
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
