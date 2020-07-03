@@ -25,7 +25,7 @@ URL | filename | username | password"""
     <b><u>Youtube</u></b>
 1. @utubebot
 2. @TgUploadsBot
-3. @Mawaidha1Bot
+3. @Mawaidha2Bot
 
    <b><u>Instagram</u></b>
 2. @InstaSavePRO_Bot
