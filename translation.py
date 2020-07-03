@@ -25,6 +25,7 @@ URL | filename | username | password"""
     <b><u>Youtube</u></b>
 1. @utubebot
 2. @TgUploadsBot
+3. @Mawaidha1Bot
 
    <b><u>Instagram</u></b>
 2. @InstaSavePRO_Bot
@@ -46,7 +47,7 @@ Plan name : Free User
 Jiunge Nasi : 🖲 @Mawaidha1
 
 Support Bot : @AbdallaahBot
-© @Viongozi"""
+© @ViongoziBot"""
     HELP_USER = "Pata Msaada kupitia hapa\n ➠@ViongoziBot"
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
