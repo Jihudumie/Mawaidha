@@ -246,7 +246,7 @@ async def youtube_dl_call_back(bot, update):
             # try to upload file
             if tg_send_type == "audio":
                 await bot.send_audio(
-                    chat_id="-1001148345121",
+                    chat_id=update.message.chat.id,
                     audio=download_directory,
                     caption=description,
                     parse_mode="HTML",
@@ -265,7 +265,7 @@ async def youtube_dl_call_back(bot, update):
                 )
             elif tg_send_type == "file":
                 await bot.send_document(
-                    chat_id="-1001148345121",
+                    chat_id=update.message.chat.id,
                     document=download_directory,
                     thumb=thumb_image_path,
                     caption=description,
@@ -296,7 +296,7 @@ async def youtube_dl_call_back(bot, update):
                 )
             elif tg_send_type == "video":
                 await bot.send_video(
-                    chat_id="-1001148345121",
+                    chat_id=update.message.chat.id,
                     video=download_directory,
                     caption=description,
                     parse_mode="HTML",
